@@ -1,0 +1,22 @@
+@charset "ANSI";
+body {
+    font-family: sans-serif;
+    width: 410px;
+    margin: auto;  
+}
+
+h1{
+    margin: 40pt auto auto 70pt
+}
+
+div.add {
+    padding: 43pt;
+    margin: 30pt 0pt;
+    border: 1px solid #cecece;
+    height: 30px;
+}
+
+div.tasklist h3 {
+    margin: 40pt auto auto 115pt;
+}
+
