@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="ANSI">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo-List</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="title">MY TO-DO LIST</h1>
-    <div id="box">
-        <input type="text" size="30" name="textbox" id="textid" placeholder="Task"/>
-        <label for="textid"></label>
-        <button id="submitbutton">
-            Add
-        </button>
-        <!--<input type="image" name="text_box" src="caminho/button.png" | replace the button with an icon/image in the place of type="submit">-->
-    </div>
-    <div id="tasklist">
-        <h3>Task List</h3>
-        <ul id="checklist">
+    <h1>MY TO-DO LIST</h1>
 
+    <form action="." method="get">
+            <fieldset>
+                    <input type="text" size="20" name="taskTextBox" placeholder="Task"/>
+                    <button id="submitButton">
+                    Add
+                    </button>
+            </fieldset>
+     </form>
+
+
+    <div id="taskList">
+        <h3>Task List</h3>
+        <ul>
         </ul>
     </div>
 </body>
